@@ -109,6 +109,10 @@
             <li class="social_list_item"><a href="https://www.credly.com/badges/fe95e97a-861d-47a2-b083-04c32d4ed519/public_url" class="social_list_link"><i class="fa-brands fa-aws"></i></a></li>
         </ul>
     </footer>
-
+<script>
+    const visited = fetch("https://900kkpx3k1.execute-api.us-east-1.amazonaws.com/Deploy/readvisitors")
+                .then(obj => obj['tester'])
+console.log(visited)
+</script>
 </body>
 </html>
